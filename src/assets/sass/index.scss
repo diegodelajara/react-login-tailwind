@@ -1,0 +1,13 @@
+$primary:hsl(193,95%,68%);
+$secondary: hsl(193,95%,45%);
+
+.btn-login {
+  background-color: $primary;
+  &:hover {
+    background-color: $secondary;
+  }
+}
+.login-card {
+  width: 400px;
+  margin: 0 auto;
+}
